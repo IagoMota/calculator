@@ -5,8 +5,8 @@ class AddButtonClickDetector {
     callOnClick = (e) => {
         const button = e.target;
         const numberDisplay = document.querySelector(".number-display");
-        console.log(numberDisplay)
-        
+        const myNumber = numberDisplay.textContent;
+        console.log(myNumber)        
     }
     addClickDetectorToAddButton() {
         const addButton = document.querySelector(".add-button");
