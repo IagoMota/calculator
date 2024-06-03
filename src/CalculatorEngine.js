@@ -5,9 +5,7 @@ class CalculusControl {
         this.equalsClickDetector = EqualsClickDetector;
     }
     
-    pitomba(){
-       
-    }
+
 }
 
 export default CalculusControl;
